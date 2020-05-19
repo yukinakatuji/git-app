@@ -1,3 +1,3 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
+class Article < ApplicationRecord
+  validates :title, presence: true
 end
